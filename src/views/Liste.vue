@@ -36,10 +36,6 @@
                 
                 )
 
-                axios.get('http://localhost:8000/eleve').then(res=>{
-                this.donnee= res.data
-                
-            })
             }
         }
     }
